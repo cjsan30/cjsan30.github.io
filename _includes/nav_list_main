@@ -21,7 +21,7 @@
         <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Thing" %}
+                    {% if category[1] == "Thing" %}
                         <li><a href="/categories/thing" class="">카테고리 이름({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}

@@ -1,11 +1,11 @@
 ---
 title:  "Study 테스트 게시글" 
-excerpt: "부재 : 테스트"
+excerpt: "부재 테스트"
 
 categories:
   - Study
 tags:
-  - [Github, Test, Post]
+  - [Github]
 
 toc: true
 toc_sticky: true

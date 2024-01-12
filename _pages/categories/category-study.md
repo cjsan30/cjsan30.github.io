@@ -1,5 +1,5 @@
 ---
-title: "카테고리 타이틀"
+title: "테스트 카테고리"
 layout: archive
 permalink: categories/study
 author_profile: true

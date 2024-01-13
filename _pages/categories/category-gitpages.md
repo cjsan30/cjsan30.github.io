@@ -1,7 +1,7 @@
 ---
-title: "메인메뉴"
+title: "Git Pages"
 layout: archive
-permalink: categories/main
+permalink: categories/gitpages
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Main %}
+{% assign posts = site.categories.Gitpages %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

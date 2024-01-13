@@ -1,10 +1,10 @@
 ---
 published: true
-title:  "Study 테스트 게시글" 
+title:  "웹개발 게시글" 
 excerpt: "부재 테스트"
 
 categories:
-  - Main
+  - Web
 tags:
   - [Github]
 

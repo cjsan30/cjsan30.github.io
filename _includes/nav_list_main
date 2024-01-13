@@ -7,6 +7,8 @@
       <li>
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
+
+      <!-- 메인메뉴 -->
       <li>
         <span class="nav__sub-title">메인메뉴</span>
             <ul>
@@ -18,24 +20,49 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Git Pages" %}
+                    {% if category[0] == "Gitpages" %}
                         <li><a href="/categories/gitpages" class="">Git Pages({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-      </li>
-      <li>
-        <span class="nav__sub-title">사이드메뉴</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Side" %}
-                        <li><a href="/categories/side" class="">사이드바 사이드메뉴 하위네이밍({{category[1].size}})</a></li>
+                    {% if category[0] == "Git" %}
+                        <li><a href="/categories/git" class="">Git Pages({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
       </li>
+
+      <!-- 사이드메뉴 -->
+      <li>
+        <span class="nav__sub-title">사이드메뉴</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "thinking" %}
+                        <li><a href="/categories/thinking" class="">잡생각({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+      </li>
+
+      <!-- 주류 -->
       <li>
         <span class="nav__sub-title">주류</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Drink" %}
+                        <li><a href="/categories/drink" class="">주류({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Food" %}
+                        <li><a href="/categories/drink" class="">안주({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Drink" %}

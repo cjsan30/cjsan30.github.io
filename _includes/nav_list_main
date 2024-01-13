@@ -12,7 +12,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Study" %}
-                        <li><a href="/categories/study" class="">카테고리 이름({{category[1].size}})</a></li>
+                        <li><a href="/categories/study" class="">navlistmain 메뉴?({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -22,7 +22,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[1] == "Thing" %}
-                        <li><a href="/categories/thing" class="">카테고리 이름({{category[1].size}})</a></li>
+                        <li><a href="/categories/thing" class="">thing 메뉴?({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

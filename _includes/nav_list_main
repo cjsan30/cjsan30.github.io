@@ -21,7 +21,7 @@
         <span class="nav__sub-title">사이드메뉴</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[1] == "Side" %}
+                    {% if category[0] == "Side" %}
                         <li><a href="/categories/side" class="">사이드바 사이드메뉴 하위네이밍({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -31,7 +31,7 @@
         <span class="nav__sub-title">주류</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[1] == "Drink" %}
+                    {% if category[0] == "Drink" %}
                         <li><a href="/categories/drink" class="">사이드바 주류 하위네이밍({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}

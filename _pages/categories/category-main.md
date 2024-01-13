@@ -1,7 +1,7 @@
 ---
-title: "테스트 카테고리"
+title: "메인메뉴"
 layout: archive
-permalink: categories/study
+permalink: categories/main
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Study %}
+{% assign posts = site.categories.Main %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

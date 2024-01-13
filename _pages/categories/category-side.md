@@ -1,7 +1,7 @@
 ---
-title: "잡동사니"
+title: "사이드메뉴"
 layout: archive
-permalink: categories/thing
+permalink: categories/side
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.Thing %}
+{% assign posts = site.categories.Side %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

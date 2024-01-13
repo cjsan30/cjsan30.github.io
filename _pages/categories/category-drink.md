@@ -1,5 +1,5 @@
 ---
-title: "조주"
+title: "주류"
 layout: archive
 permalink: categories/drink
 author_profile: true

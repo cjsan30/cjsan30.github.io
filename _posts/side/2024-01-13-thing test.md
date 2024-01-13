@@ -1,10 +1,10 @@
 ---
 published: true
-title:  "Study 테스트 게시글" 
+title:  "Thing 테스트 게시글" 
 excerpt: "부재 테스트"
 
 categories:
-  - Study
+  - Side
 tags:
   - [Github]
 

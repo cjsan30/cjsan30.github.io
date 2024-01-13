@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Shell develop"
+title                    : "개발술집"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "miNi_sHell"
-description              : "개발 위주의 게시글이 작성되는 블로그"
+name                     : "mini_shell"
+description              : "코딩과 술이 함께하는 곳"
 url                      : "https://cjsan30.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,15 +105,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "mini_shell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "One Error One Glass."
+  location         : "Ulsan"
+  email            : "Email"
+  github           : "GitHub"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "cjsan30@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,13 +126,14 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/cjsan30"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
+  github            : "GitHub"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -144,7 +146,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/cjsan30"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:

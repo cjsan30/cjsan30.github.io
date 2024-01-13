@@ -1,9 +1,9 @@
 ---
-title:  "내 피 땀 눈물이 들어간 블로그를 만들며"
+title:  "about title"
 permalink: /about/
 layout: single
 published: true
-date: 2021-09-25
+date: 2024-01-13
 categories:
   - Blog
 tags:

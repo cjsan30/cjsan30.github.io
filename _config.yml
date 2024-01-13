@@ -109,8 +109,8 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "One Error One Glass."
   location         : "Ulsan"
-  email            : "Email"
-  github           : "GitHub"
+  email            : 
+  github           : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
